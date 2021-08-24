@@ -21,7 +21,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
                        )
-                       {
+{
 
     switch (ul_reason_for_call)
     {
@@ -43,16 +43,17 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                 break;
     }
     return TRUE;
-                       }
+}
 
-                       void main()
-                       {
+void main()
+{
     MessageBox(NULL, TEXT("C++ DLL Injection Successful"), TEXT("Title"), MB_OK);
     testClass = gcnew Class1();
     testClass->hook();
-                       }
+}
 
-                       void injection_net() {
+void injection_net()
+{
     MessageBox(NULL, TEXT("C++ DLL Injection Successful"), TEXT("Title"), MB_OK);
     // Class1^ testClass = gcnew Class1();
     testClass = gcnew Class1();
