@@ -7,42 +7,55 @@
 #include<windows.h>
 #include<iostream>
 #include<cstdio>
+#include <gcroot.h>
 #include "dllmain.h"
 #using "CSDllMain.dll"
 
 using namespace CSDllMain;
 
 
+gcroot<Class1^> testClass;
+
+
 BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
-                     )
-{
+                       )
+                       {
 
     switch (ul_reason_for_call)
     {
-    // DLL_PROCESS_ATTACH: 进程第一次加载时通知
-    case DLL_PROCESS_ATTACH:
-        injection_net();
-        break;
-    // DLL_THREAD_ATTACH: 新线程创建时通知
-    case DLL_THREAD_ATTACH:
-        break;
+        // DLL_PROCESS_ATTACH: 进程第一次加载时通知
+        case DLL_PROCESS_ATTACH:
+            CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)main, hModule, 0, NULL);
+            // injection_net();
+            break;
+            // DLL_THREAD_ATTACH: 新线程创建时通知
+            case DLL_THREAD_ATTACH:
+                break;
 
-    // DLL_THREAD_DETACH: 线程消亡时通知
-    case DLL_THREAD_DETACH:
-        break;
+            // DLL_THREAD_DETACH: 线程消亡时通知
+            case DLL_THREAD_DETACH:
+                break;
 
-    // DLL_PROCESS_DETACH: 进程卸载dll时通知 
-    case DLL_PROCESS_DETACH:
-        break;
+            // DLL_PROCESS_DETACH: 进程卸载dll时通知
+            case DLL_PROCESS_DETACH:
+                break;
     }
     return TRUE;
-}
+                       }
 
-void injection_net() {
+                       void main()
+                       {
     MessageBox(NULL, TEXT("C++ DLL Injection Successful"), TEXT("Title"), MB_OK);
-    Class1^ testClass = gcnew Class1();
+    testClass = gcnew Class1();
+    testClass->hook();
+                       }
+
+                       void injection_net() {
+    MessageBox(NULL, TEXT("C++ DLL Injection Successful"), TEXT("Title"), MB_OK);
+    // Class1^ testClass = gcnew Class1();
+    testClass = gcnew Class1();
     testClass->hook();
 }
 
