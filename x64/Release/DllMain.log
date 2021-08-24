@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2084,5): warning MSB3274: 未能解析主引用“CSDllMain”，因为它是针对“.NETFramework,Version=v4.7.2”框架生成的。该框架版本高于当前目标框架“.NETFramework,Version=v4.0”。
+  pch.cpp
+  dllmain.cpp
+C:\Work\WorkSpace\c++\DllMain\dllmain.cpp : warning C4747: 调用托管“DllMain”: 托管代码可能未运行在加载程序锁下，包括 DLL 入口点和从 DLL 入口点访问到的调用
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  DllMain.vcxproj -> C:\Work\WorkSpace\c++\DllMain\x64\Release\DllMain.dll
