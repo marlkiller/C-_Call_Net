@@ -1,6 +1,6 @@
 ﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。
 // 属性-高级-公共语言运行时支持  公共语言运行时支持(/clr)
-// 属性-C/C++-语言  否
+// 属性-C/C++-语言  符合格式 否
 // CSDllMain.dll 的 DLL 要放到目标程序下
 
 #include "pch.h"
