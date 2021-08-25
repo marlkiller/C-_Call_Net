@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1c8045a-1453-4f51-b668-3c06522b1042" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/DllMain/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DllMain/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DllMain/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DllMain/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DllMain/v16/ipch/9ab671c49cf4b062.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DllMain/v16/ipch/9ab671c49cf4b062.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dllmain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dllmain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dllmain.h" beforeDir="false" afterPath="$PROJECT_DIR$/dllmain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/.NETFramework,Version=v4.0.AssemblyAttributes.obj" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/.NETFramework,Version=v4.0.AssemblyAttributes.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/DllMain.Build.CppClean.log" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/DllMain.Build.CppClean.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/DllMain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/DllMain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/DllMain.pch" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/DllMain.pch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/DllMain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/DllMain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/dllmain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/dllmain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/pch.obj" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/pch.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Release/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Release/vc142.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Work\Soft\Repository" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="userSettingsFile" value="C:\Work\Soft\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xClobmP7WAPTnvznxLTZhXuHiz" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/Develop/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\voidm\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1c8045a-1453-4f51-b668-3c06522b1042" name="Changes" comment="" />
+      <created>1629867133543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629867133543</updated>
+      <workItem from="1629867135829" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
