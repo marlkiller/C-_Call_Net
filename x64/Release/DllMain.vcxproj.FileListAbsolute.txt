@@ -1,2 +1,0 @@
-C:\Work\WorkSpace\c++\DllMain\x64\Release\DllMain.dll
-C:\Work\WorkSpace\c++\DllMain\x64\Release\DllMain.vcxprojAssemblyReference.cache
