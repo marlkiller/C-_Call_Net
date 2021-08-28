@@ -14,6 +14,14 @@
 
 #using "CSDllMain.dll"
 
+// 声明导出函数
+// extern "C" __declspec(dllexport) void injection();
+
+// 声明导入函数
+// #pragma comment(lib,"MyDLl.dll")
+// extern "C" void injection();
+
+
 using namespace CSDllMain;
 
 
@@ -22,6 +30,8 @@ using namespace CSDllMain;
 
 BOOL APIENTRY DllMain( HMODULE hModule,DWORD  ul_reason_for_call,LPVOID lpReserved)
 {
+    // hModule DLL模块的句柄
+    // ul_reason_for_call 调用原因
     switch (ul_reason_for_call)
     {
         // DLL_PROCESS_ATTACH: 进程第一次加载时通知
